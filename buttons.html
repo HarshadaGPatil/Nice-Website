@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./nice.css">
+</head>
+
+<body>
+
+  <nav class="navbar bg-light" style="height: 70px;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="https://bootstrapmade.com/demo/templates/NiceAdmin/assets/img/logo.png" style="height: 30px;">
+        <span class="fw-bold">NiceAdmin</span>
+
+      </a>
+      <form class="d-flex" role="search">
+        <input class="form-control " type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+      <a>
+        <i class="bi bi-bell m-2"></i>
+        <i class="bi bi-chat-left-text"></i>
+        <img src="./nice-img/profile-img.jpg" style="height: 40px; border-radius: 50%;">
+
+      </a>
+
+      <ul>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            K.Anderson
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark">
+            <li><a class="dropdown-item" href="./Profile.html"><i class="bi bi-person"></i>Profile</a></li>
+            <li><a class="dropdown-item" href="./Profile.html"><i class="bi bi-gear"></i>&nbsp;Account Settings</a></li>
+            <li><a class="dropdown-item" href="./FAQ.html"><i class="bi bi-question-circle"></i>&nbsp;Need Help</a></li>
+            <li><a class="dropdown-item" href="./FAQ.html"><i class="bi bi-box-arrow-in-right"></i>&nbsp;Sign-Out</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <div class="sidebar-nav">
+
+        <div class="container-fluid">
+          <!-- Mobile Menu Toggle Button -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Menus List -->
+          <div class="offcanvas offcanvas-start " tabindex="-1" id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-body">
+              <ul class="navbar-nav">
+                <li><a href="./nice.html"><i class="bi bi-grid"></i> <span class="item-text">Dashboard</span></a></li>
+                <li class="nav-item dropdown">
+                  <button class="btn  dropdown-toggle bg-warning" type="button" data-bs-toggle="dropdown">
+                    <i class="bi bi-menu-button-wide"></i> Components
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./Alerts.html">Alert</a></li>
+                    <li><a class="dropdown-item" href="./acordian.html">Acordion</a></li>
+                    <li><a class="dropdown-item" href="./badges.html">Badges</a></li>
+                    <li><a class="dropdown-item" href="./breadcrumps.html">BreadCrumps</a></li>
+                    <li><a class="dropdown-item" href="./buttons.html">Buttons</a></li>
+                    <li><a class="dropdown-item" href="./cards.html">Cards</a></li>
+                    <li><a class="dropdown-item" href="./careousel.html">Creousel</a></li>
+                    <li><a class="dropdown-item" href="./List-group.html">List Group</a></li>
+                    <li><a class="dropdown-item" href="./modals.html">Modal</a></li>
+                    <li><a class="dropdown-item" href="./Tabs.html">Tabs</a></li>
+                    <li><a class="dropdown-item" href="./Pagination.html">Pagination</a></li>
+                    <li><a class="dropdown-item" href="./Progress.html">Progress</a></li>
+                    <li><a class="dropdown-item" href="./Spinners.html">Spinner</a></li>
+                    <li><a class="dropdown-item" href="./Tooltips.html">Tooltips</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <button class="btn  dropdown-toggle bg-warning" type="button" data-bs-toggle="dropdown">
+                    <i class="bi bi-file-text"></i>Forms
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./Form-Element.html">Form Elements</a></li>
+                    <li><a class="dropdown-item" href="./Form-Layout.html">Form Layouts</a></li>
+                    <li><a class="dropdown-item" href="./Forms-editors.html">Form Editors</a></li>
+                    <li><a class="dropdown-item" href="./Form-Validation.html">Form Validation</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <button class="btn  dropdown-toggle bg-warning" type="button" data-bs-toggle="dropdown">
+                    <i class="bi bi-file-ruled"></i> Tables
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./General-Tables.html">General Tables</a></li>
+                    <li><a class="dropdown-item" href="./Data-Tables.html">Data Tables</a></li>
+
+                  </ul>
+                </li>
+
+
+                <li class="nav-item dropdown">
+                  <button class="btn  dropdown-toggle bg-warning" type="button" data-bs-toggle="dropdown">
+                    <i class="bi bi-bar-chart"></i>Charts
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./Chart-js.html">Chart.js</a></li>
+                    <li><a class="dropdown-item" href="./Apex-Charts.html">ApexCharts</a></li>
+                    <li><a class="dropdown-item" href="./ECharts.html">Echarts</a></li>
+
+
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <button class="btn  dropdown-toggle bg-warning" type="button" data-bs-toggle="dropdown">
+                    <i class="bi bi-info"></i>Icons
+                  </button>
+
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./Bootstrap-Icons.html">Bootsrap Icons</a></li>
+                    <li><a class="dropdown-item" href="./Remix-icons.html">Remix Icons</a></li>
+                    <li><a class="dropdown-item" href="./Boxicons.html">Boxicons</a></li>
+
+                  </ul>
+                </li>
+
+                <span>Pages</span>
+                <li><a href="./Profile.html"><i class="bi bi-person"></i></i> <span class="item-text">Profile</span></a></li>
+                <li><a href="./FAQ.html"><i class="bi bi-question-circle"></i> <span class="item-text">F.A.Q</span></a></li>
+                <li><a href="./Contact.html"><i class="bi bi-envelope"></i> <span class="item-text">Contact</span></a></li>
+                <li><a href="./Register.html"><i class="bi bi-receipt"></i> <span class="item-text">Register</span></a></li>
+                <li><a href="./Login.html"><i class="bi bi-box-arrow-in-right"></i><span class="item-text">Login</span></a></li>
+                <li><a href="./Error-404.html"><i class="bi bi-slash-circle"></i><span class="item-text">Error 404</span></a></li>
+                <li><a href="./Blank.html"><i class="bi bi-clipboard2"></i><span class="item-text">Blank</span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </nav>
+  <br>
+  <div class="container bg-light me-5">
+    <div class="">
+      <h1 class="text-primary ms-4">Buttons</h1>
+      <p class="ms-4">Home/Dashboard/Buttons</p>
+    </div>
+
+    <section class="section">
+        <div class="row">
+          <div class="col-lg-6">
+  
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Default Buttons</h5>
+  
+                <button type="button" class="btn btn-primary" fdprocessedid="ri67w5">Primary</button>
+                <button type="button" class="btn btn-secondary" fdprocessedid="pe44">Secondary</button>
+                <button type="button" class="btn btn-success" fdprocessedid="g0xhows">Success</button>
+                <button type="button" class="btn btn-danger" fdprocessedid="3ojhu">Danger</button>
+                <button type="button" class="btn btn-warning" fdprocessedid="f0ur2p">Warning</button>
+                <button type="button" class="btn btn-info" fdprocessedid="4c7pve">Info</button>
+                <button type="button" class="btn btn-light" fdprocessedid="eihd2k">Light</button>
+                <button type="button" class="btn btn-dark" fdprocessedid="l8m3jd">Dark</button>
+                <button type="button" class="btn btn-link" fdprocessedid="m4ik0j">Link</button>
+              </div>
+            </div>
+  
+            <div class="card mt-3">
+              <div class="card-body">
+                <h5 class="card-title">Rounded Buttons</h5>
+  
+                <button type="button" class="btn btn-primary rounded-pill" fdprocessedid="1ygwy">Primary</button>
+                <button type="button" class="btn btn-secondary rounded-pill" fdprocessedid="fh3tnc">Secondary</button>
+                <button type="button" class="btn btn-success rounded-pill" fdprocessedid="2bzojc">Success</button>
+                <button type="button" class="btn btn-danger rounded-pill" fdprocessedid="cu39hh">Danger</button>
+                <button type="button" class="btn btn-warning rounded-pill" fdprocessedid="wqabe5">Warning</button>
+                <button type="button" class="btn btn-info rounded-pill" fdprocessedid="4t3d3">Info</button>
+                <button type="button" class="btn btn-light rounded-pill" fdprocessedid="cz2ax">Light</button>
+                <button type="button" class="btn btn-dark rounded-pill" fdprocessedid="d40j6n">Dark</button>
+              </div>
+            </div>
+  
+            <div class="card mt-3">
+              <div class="card-body">
+                <h5 class="card-title">Icon Buttons</h5>
+  
+                <button type="button" class="btn btn-primary" fdprocessedid="66mvsr"><i class="bi bi-star me-1"></i> With Text</button>
+                <button type="button" class="btn btn-secondary" fdprocessedid="u5w5fk"><i class="bi bi-collection"></i></button>
+                <button type="button" class="btn btn-success" fdprocessedid="jbtrzn"><i class="bi bi-check-circle"></i></button>
+                <button type="button" class="btn btn-danger" fdprocessedid="b3rbq"><i class="bi bi-exclamation-octagon"></i></button>
+                <button type="button" class="btn btn-warning" fdprocessedid="s2bgp"><i class="bi bi-exclamation-triangle"></i></button>
+                <button type="button" class="btn btn-info" fdprocessedid="2db51m"><i class="bi bi-info-circle"></i></button>
+                <button type="button" class="btn btn-dark" fdprocessedid="yxhq6l"><i class="bi bi-folder"></i></button>
+              </div>
+            </div>
+  
+            <div class="card mt-3">
+              <div class="card-body">
+                <h5 class="card-title">Button Groups</h5>
+  
+                <div class="btn-group" role="group" aria-label="Basic example">
+                  <button type="button" class="btn btn-primary" fdprocessedid="bmu0xx">Left</button>
+                  <button type="button" class="btn btn-primary" fdprocessedid="hcq5fh">Middle</button>
+                  <button type="button" class="btn btn-primary" fdprocessedid="x6gdzf">Right</button>
+                </div>
+  
+                <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                  <button type="button" class="btn btn-danger" fdprocessedid="7dwm3d">Left</button>
+                  <button type="button" class="btn btn-warning" fdprocessedid="ejmzlc">Middle</button>
+                  <button type="button" class="btn btn-success" fdprocessedid="kx36r">Right</button>
+                </div>
+  
+                <div class="btn-group" role="group" aria-label="Basic outlined example">
+                  <button type="button" class="btn btn-outline-primary" fdprocessedid="i757hd">Left</button>
+                  <button type="button" class="btn btn-outline-primary" fdprocessedid="azt9sw">Middle</button>
+                  <button type="button" class="btn btn-outline-primary" fdprocessedid="6tj6or">Right</button>
+                </div>
+  
+              </div>
+            </div>
+  
+          </div>
+  
+          <div class="col-lg-6">
+  
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Outline Buttons</h5>
+  
+                <button type="button" class="btn btn-outline-primary" fdprocessedid="o4ly15">Primary</button>
+                <button type="button" class="btn btn-outline-secondary" fdprocessedid="id8bd">Secondary</button>
+                <button type="button" class="btn btn-outline-success" fdprocessedid="ilj7bi">Success</button>
+                <button type="button" class="btn btn-outline-danger" fdprocessedid="eoqy2q">Danger</button>
+                <button type="button" class="btn btn-outline-warning" fdprocessedid="eqyjgi">Warning</button>
+                <button type="button" class="btn btn-outline-info" fdprocessedid="rpdzkr">Info</button>
+                <button type="button" class="btn btn-outline-light" fdprocessedid="ucmkve">Light</button>
+                <button type="button" class="btn btn-outline-dark" fdprocessedid="28s82s">Dark</button>
+              </div>
+            </div>
+  
+            <div class="card mt-3">
+              <div class="card-body">
+                <h5 class="card-title">Button Sizes</h5>
+  
+                <button type="button" class="btn btn-primary btn-sm" fdprocessedid="j60jw8">Small</button>
+                <button type="button" class="btn btn-secondary" fdprocessedid="0o72ei">Normal</button>
+                <button type="button" class="btn btn-success btn-lg" fdprocessedid="j11tc">Large</button>
+  
+                <button type="button" class="btn btn-outline-danger btn-sm" fdprocessedid="8y648c">Small</button>
+                <button type="button" class="btn btn-outline-warning" fdprocessedid="d1xrvb">Normal</button>
+                <button type="button" class="btn btn-outline-info btn-lg" fdprocessedid="w1n9b">Large</button>
+  
+                <div class="d-grid gap-2 mt-3">
+                  <button class="btn btn-primary" type="button" fdprocessedid="tdb6si">Block Button</button>
+                </div>
+  
+              </div>
+            </div>
+  
+            <div class="card mt-3">
+              <div class="card-body">
+                <h5 class="card-title">Button States</h5>
+  
+                <button type="button" class="btn btn-primary" fdprocessedid="kzfow">Normal</button>
+                <button type="button" class="btn btn-primary" disabled="">Disabled</button>
+                <button type="button" class="btn btn-outline-primary" fdprocessedid="87o8b6">Normal</button>
+                <button type="button" class="btn btn-outline-primary" disabled="">Disabled</button>
+              </div>
+            </div>
+  
+          </div>
+        </div>
+      </section>
+
+    <div class="footer mt-3">
+        <hr>
+        <p class="text-primary text-center">© Copyright NiceAdmin. All Rights Reserved<br>Designed by BootstrapMade</p>
+      </div>
+</body>
+</html>
