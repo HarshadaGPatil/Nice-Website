@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./nice.css">
+</head>
+
+<body>
+
+  <nav class="navbar bg-light" style="height: 70px;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="https://bootstrapmade.com/demo/templates/NiceAdmin/assets/img/logo.png" style="height: 30px;">
+        <span class="fw-bold">NiceAdmin</span>
+
+      </a>
+      <form class="d-flex" role="search">
+        <input class="form-control " type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+      <a>
+        <i class="bi bi-bell m-2"></i>
+        <i class="bi bi-chat-left-text"></i>
+        <img src="./nice-img/profile-img.jpg" style="height: 40px; border-radius: 50%;">
+
+      </a>
+
+      <ul>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            K.Anderson
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark">
+            <li><a class="dropdown-item" href="./Profile.html"><i class="bi bi-person"></i>Profile</a></li>
+            <li><a class="dropdown-item" href="./Profile.html"><i class="bi bi-gear"></i>&nbsp;Account Settings</a></li>
+            <li><a class="dropdown-item" href="FAQ.html"><i class="bi bi-question-circle"></i>&nbsp;Need Help</a></li>
+            <li><a class="dropdown-item" href="FAQ.html"><i class="bi bi-box-arrow-in-right"></i>&nbsp;Sign-Out</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <div class="sidebar-nav">
+
+        <div class="container-fluid">
+          <!-- Mobile Menu Toggle Button -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Menus List -->
+          <div class="offcanvas offcanvas-start " tabindex="-1" id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-body">
+              <ul class="navbar-nav">
+                <li><a href="#"><i class="bi bi-grid"></i> <span class="item-text">Dashboard</span></a></li>
+                <li class="nav-item dropdown">
+                  <button class="btn  dropdown-toggle bg-warning" type="button" data-bs-toggle="dropdown">
+                    <i class="bi bi-menu-button-wide"></i> Components
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./Alerts.html">Alert</a></li>
+                    <li><a class="dropdown-item" href="./acordian.html">Acordion</a></li>
+                    <li><a class="dropdown-item" href="./badges.html">Badges</a></li>
+                    <li><a class="dropdown-item" href="./breadcrumps.html">BreadCrumps</a></li>
+                    <li><a class="dropdown-item" href="./buttons.html">Buttons</a></li>
+                    <li><a class="dropdown-item" href="./cards.html">Cards</a></li>
+                    <li><a class="dropdown-item" href="./careousel.html">Creousel</a></li>
+                    <li><a class="dropdown-item" href="./List-group.html">List Group</a></li>
+                    <li><a class="dropdown-item" href="./modals.html">Modal</a></li>
+                    <li><a class="dropdown-item" href="./Tabs.html">Tabs</a></li>
+                    <li><a class="dropdown-item" href="./Pagination.html">Pagination</a></li>
+                    <li><a class="dropdown-item" href="./Progress.html">Progress</a></li>
+                    <li><a class="dropdown-item" href="./Spinners.html">Spinner</a></li>
+                    <li><a class="dropdown-item" href="./Tooltips.html">Tooltips</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <button class="btn  dropdown-toggle bg-warning" type="button" data-bs-toggle="dropdown">
+                    <i class="bi bi-file-text"></i>Forms
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./Form-Element.html">Form Elements</a></li>
+                    <li><a class="dropdown-item" href="./Form-Layout.html">Form Layouts</a></li>
+                    <li><a class="dropdown-item" href="Forms-editors.html">Form Editors</a></li>
+                    <li><a class="dropdown-item" href="./Form-Validation.html">Form Validation</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <button class="btn  dropdown-toggle bg-warning" type="button" data-bs-toggle="dropdown">
+                    <i class="bi bi-file-ruled"></i> Tables
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./General-Tables.html">General Tables</a></li>
+                    <li><a class="dropdown-item" href="./Data-Tables.html">Data Tables</a></li>
+
+                  </ul>
+                </li>
+
+
+                <li class="nav-item dropdown">
+                  <button class="btn  dropdown-toggle bg-warning" type="button" data-bs-toggle="dropdown">
+                    <i class="bi bi-bar-chart"></i>Charts
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./Chart-js.html">Chart.js</a></li>
+                    <li><a class="dropdown-item" href="./Apex-Charts.html">ApexCharts</a></li>
+                    <li><a class="dropdown-item" href="./ECharts.html">Echarts</a></li>
+
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <button class="btn  dropdown-toggle bg-warning" type="button" data-bs-toggle="dropdown">
+                    <i class="bi bi-info"></i>Icons
+                  </button>
+
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./Bootstrap-Icons.html">Bootsrap Icons</a></li>
+                    <li><a class="dropdown-item" href="./Remix-icons.html">Remix Icons</a></li>
+                    <li><a class="dropdown-item" href="./Boxicons.html">Boxicons</a></li>
+
+                  </ul>
+                </li>
+
+                <span>Pages</span>
+                <li><a href="./Profile.html"><i class="bi bi-person"></i></i> <span class="item-text">Profile</span></a></li>
+                <li><a href="./FAQ.html"><i class="bi bi-question-circle"></i> <span class="item-text">F.A.Q</span></a></li>
+                <li><a href="./Contact.html"><i class="bi bi-envelope"></i> <span class="item-text">Contact</span></a></li>
+                <li><a href="./Register.html"><i class="bi bi-receipt"></i> <span class="item-text">Register</span></a></li>
+                <li><a href="./Login.html"><i class="bi bi-box-arrow-in-right"></i><span class="item-text">Login</span></a></li>
+                <li><a href="./Error-404.html"><i class="bi bi-slash-circle"></i><span class="item-text">Error 404</span></a></li>
+                <li><a href="./Blank.html"><i class="bi bi-clipboard2"></i><span class="item-text">Blank</span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </nav>
+  <br>
+  <div class="container bg-light me-5">
+    <div class="">
+      <h1 class="text-primary ms-4">Dashboard</h1>
+      <p class="ms-4">Home/Dashboard</p>
+    </div>
+    <div class="row">
+      <div class="col-lg-8">
+        <div class="row">
+          <div class="col-md-4 col-lg-4 col-sm-12">
+            <div class="card ">
+              <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Sales/Today</h5>
+                  <div class="row">
+                    <div class="col-6">
+                      <i class="bi bi-cart text-primary"
+                        style="background-color: aliceblue; border-radius: 50%; font-size: 30px;"></i>
+                    </div>
+                    <div class="col-6">
+                      <h1>145</h1>
+                      <p>12% increase</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+          <div class="col-md-4 col-lg-4 col-sm-12 ">
+            <div class="card ">
+              <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Revenue/This Month</h5>
+                  <div class="row">
+                    <div class="col-6">
+                      <i class="bi bi-currency-dollar text-success"
+                        style="background-color: aliceblue; border-radius: 50%; font-size: 40px;"></i>
+                    </div>
+                    <div class="col-6">
+                      <h1>$3264</h1>
+                      <p>8% increase</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+          <div class="col-md-4 col-lg-4 col-sm-12">
+            <div class="card ">
+              <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Customers/This Year</h5>
+                  <div class="row">
+                    <div class="col-6">
+                      <i class="bi bi-people text-warning"
+                        style="background-color: aliceblue; border-radius: 50%; font-size: 30px;"></i>
+                    </div>
+                    <div class="col-6">
+                      <h1>1244</h1>
+                      <p>12% decrease</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+          <div class="col-lg-8">
+            <div class="card1">
+              <img
+                src="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/content-gh/en/_mdb5/standard/web/docs/design-blocks/admin/charts/assets/1.jpg"
+                style="height: 480px;">
+            </div>
+          </div>
+          <div class="col-lg-8 ">
+            <div class="card " style="width: 54rem;">
+              <div class="card-body ms-3">
+                <h5 class="card-title text-primary">Recent Sales| Today</h5>
+                <div class="dropdown">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    10
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">5</a></li>
+                    <li><a class="dropdown-item" href="#">10</a></li>
+                    <li><a class="dropdown-item" href="#">15</a></li>
+                    <li><a class="dropdown-item" href="#">20</a></li>
+                    <li><a class="dropdown-item" href="#">25</a></li>
+
+                  </ul>
+                  enteries per page
+                  <form class="d-flex mt-2" role="search">
+                    <input class="form-control " type="search" placeholder="Search" aria-label="Search">
+
+                  </form>
+                </div>
+                <p class="card-text mt-2 fw-bold">
+                  #&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Customers&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Product&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Price&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;&nbsp;Status
+                </p>
+                <p class="card-text mt-2">#2644&nbsp;&nbsp;&nbsp;&nbsp;Raheem Lehner&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sunt similique
+                  distinctio&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$165&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;&nbsp;<button type="button" class="btn btn-success btn-sm">Approved</button>
+                </p>
+                <p class="card-text mt-2">#2049&nbsp;&nbsp;&nbsp;&nbsp;Ashleigh Langosh&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;At recusandae
+                  consectetur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$147&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;&nbsp;<button type="button" class="btn btn-success btn-sm">Approved</button>
+                </p>
+                <p class="card-text mt-2">#2644&nbsp;&nbsp;&nbsp;&nbsp;Angus Grady&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ut voluptatem id earum
+                  et&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$67&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="button"
+                    class="btn btn-danger btn-sm">Rejected</button>
+                </p>
+                <p class="card-text mt-2">#2457&nbsp;&nbsp;&nbsp;&nbsp;Brandon Jacob&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;At praesentium
+                  minu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$64&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="button"
+                    class="btn btn-success btn-sm">Approved</button>
+                </p>
+                <p class="card-text mt-2">#2147&nbsp;&nbsp;&nbsp;&nbsp;Bridie Kessler&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Blanditiis dolor omnis
+                  similique&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$47&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="button"
+                    class="btn btn-warning btn-sm">Pending</button>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8 ">
+            <div class="card mt-2" style="width: 54rem;">
+              <div class="card-body ms-3">
+                <h5 class="card-title text-primary">Top Selling| Today</h5>
+
+                <p class="card-text mt-2 fw-bold">
+                  Preview&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Product&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Price&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  Sold&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Revenue
+                </p>
+                <p class="card-text mt-2"><img src="./nice-img/product-1.jpg" style="height: 50px;"> &nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ut inventore ipsa voluptas
+                  nulla&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  $165&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  124&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  $5,828&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </p>
+                <p class="card-text mt-2"><img src="./nice-img/product-2.jpg" style="height: 50px;"> &nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Exercitationem similique doloremque
+                  nulla&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  $46&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  98&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  $4,508&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </p>
+                <p class="card-text mt-2"><img src="./nice-img/product-3.jpg" style="height: 50px;"> &nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Doloribus nisi exercitationem&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;$59&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  74&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  $4,366&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </p>
+                <p class="card-text mt-2"><img src="./nice-img/product-4.jpg" style="height: 50px;"> &nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Officiis quaerat sint rerum error&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  $46&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  98&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  $4,508
+                </p>
+                <p class="card-text mt-2"><img src="./nice-img/product-5.jpg" style="height: 50px;"> &nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sit unde debitis delectus repellendus&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  $79&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  41&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  $3,239
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-4">
+        <div class="card" style="width: 27rem;">
+          <div class="card-body">
+            <h5 class="card-title">Recent Activity | Today</h5><br>
+
+            <p class="card-text">32 Min <i class="bi bi-circle-fill text-success"></i> Quia quae rerum explicabo
+              officiis beatae</p>
+            <p class="card-text">56 Min <i class="bi bi-circle-fill text-danger"></i> Voluptatem blanditiis blanditiis
+              eveniet</p>
+            <p class="card-text">2 hrs&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="bi bi-circle-fill text-primary"></i>
+              Voluptates corrupti molestias voluptatem</p>
+            <p class="card-text">1 day &nbsp;&nbsp;&nbsp;<i class="bi bi-circle-fill text-primary"></i>Tempore autem
+              saepe occaecati voluptatem tempore</p>
+            <p class="card-text">2 days <i class="bi bi-circle-fill text-warning"></i> Est sit eum reiciendis
+              exercitationem</p>
+            <p class="card-text">4 Weeks <i class="bi bi-circle-fill text-secondary"></i> Dicta dolorem harum nulla
+              eius. Ut quidem quidem sit quas</p>
+          </div>
+        </div>
+        <div class="card mt-2" style="width:27rem; ">
+          <img src="./nice-img/download.png" style="height: 400px;">
+        </div>
+        <div class="card mt-2" style="width:27rem; ">
+          <img src="./nice-img/download (1).png" style="height: 400px;">
+        </div>
+        <div class="card mt-2" style="width:27rem; ">
+          <div class="card-body">
+            <h5 class="card-title">News & Updates | Today</h5><br>
+            <p><img src="./nice-img/news-1.jpg" style="height: 50px;">&nbsp;Nihil blanditiis at in nihil autem <br>Sit recusandae non aspernatur laboriosam. Quia enim eligendi sed ut harum...</p>
+            <p><img src="./nice-img/news-2.jpg" style="height: 50px;">&nbsp;Quidem autem et impedit <br>Illo nemo neque maiores vitae officiis cum eum turos elan dries werona nande...</p>
+            <p><img src="./nice-img/news-3.jpg" style="height: 50px;">&nbsp;Id quia et et ut maxime similique occaecati ut <br>Fugiat voluptas vero eaque accusantium eos. Consequuntur sed ipsam et totam...</p>
+            <p><img src="./nice-img/news-4.jpg" style="height: 50px;">&nbsp;Laborum corporis quo dara net para <br>Qui enim quia optio. Eligendi aut asperiores enim repellendusvel rerum cuder...</p>
+            <p><img src="./nice-img/news-5.jpg" style="height: 50px;">&nbsp;Et dolores corrupti quae illo quod dolor <br>Odit ut eveniet modi reiciendis. Atque cupiditate libero beatae dignissimos eius...</p>
+          </div>
+        </div>
+      </div>
+
+      
+      </div>
+      <hr>
+      <div class="footer">
+        <p class="text-primary text-center">© Copyright NiceAdmin. All Rights Reserved<br>Designed by BootstrapMade</p>
+      </div>
+    </div>
+
+</body>
+
+</html>
